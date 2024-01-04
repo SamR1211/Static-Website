@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: open sans;
+}
+/* changes color and removes underline on sidebar links */
+a {
+  color: white;
+  text-decoration: none;
+}
+/* design and position of sidebar */
+.wrapper .sidenav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20vw;
+  height: 100vh;
+  background: #231f20
+}
+/* sidebar heading */
+.wrapper .sidenav h1{
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+  border-bottom: 1px dotted white;
+}
+/* sidebar links design and position */
+.wrapper .sidenav ul li{
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* sidebar icons positioning */
+i{
+  margin-right: 8px;
+}
+/* main content positioning */
+.wrapper .main-body{
+  width: 80vw;
+  margin-left: 20vw;
+  }
+  /* main heading position */
+.wrapper .main-body h1{
+text-align: center;
+margin-top: 2vh;
+}
+/* positions image in biography page */
+.wrapper .main-body img{
+  float: left;
+  padding: 30px;
+}
+/* positioning of main paragraph */
+.wrapper .main-body p{
+  padding: 30px;
+}
+/* references page content */
+.wrapper .main-body ol li{
+  margin-left: 50px;
+  margin-top: 36px;
+}
